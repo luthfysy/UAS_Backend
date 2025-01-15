@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Jan 2025 pada 08.05
--- Versi server: 10.4.28-MariaDB
--- Versi PHP: 8.2.4
+-- Waktu pembuatan: 15 Jan 2025 pada 08.33
+-- Versi server: 10.4.32-MariaDB
+-- Versi PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -42,7 +42,7 @@ CREATE TABLE `pasien` (
 --
 
 INSERT INTO `pasien` (`id`, `nama`, `nohp_pasien`, `alamat_pasien`, `status_pasien`, `tanggal_masuk`, `tanggal_keluar`) VALUES
-(1, 'Naufal Afif', '082112345678', 'Jalan Kesehatan', 'sembuh', '2024-05-01', '2024-05-05');
+(4, 'Luthfiyah Syaharani', '085894280162', 'Jl Juanda', 'sembuh', '2025-01-01', '2025-01-05');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +62,7 @@ ALTER TABLE `pasien`
 -- AUTO_INCREMENT untuk tabel `pasien`
 --
 ALTER TABLE `pasien`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
